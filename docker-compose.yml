@@ -22,7 +22,7 @@ services:
     ports:
       - 8080:8080
     volumes:
-      - ./postgresql/servers:/pgadmin
+      - ./postgresql/pgadmin:/pgadmin
 
 networks:
   default:
