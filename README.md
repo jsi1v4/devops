@@ -42,6 +42,10 @@ docker-compose up
 docker-compose build
 ```
 
+## Database
+
+![**Diagram**](assets/database-diagram.png)
+
 [**Voltar ao inicio**](#devops)
 
 ---
