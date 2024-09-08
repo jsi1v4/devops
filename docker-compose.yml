@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+  db-postgres:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_USER: $DATABASE_USR
+      POSTGRES_PASSWORD: $DATABASE_PWD
+    ports:
+      - 5432:5432
+    volumes:
+      - ./postgresql/data:/var/lib/postgresql/data
+
+  pgadmin:
+    image: elestio/pgadmin:latest
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: $PGADMIN_USR
+      PGADMIN_DEFAULT_PASSWORD: $PGADMIN_PWD
+      PGADMIN_LISTEN_PORT: 8080
+    ports:
+      - 8080:8080
+    volumes:
+      - ./postgresql/servers:/pgadmin
+
+networks:
+  default:
+    name: local-network
+    external: true
