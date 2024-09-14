@@ -44,7 +44,7 @@ docker-compose build
 
 ## Database
 
-![**Diagram**](assets/database-diagram.png)
+![**Diagram**](diagram/preview.png)
 
 [**Voltar ao inicio**](#devops)
 
