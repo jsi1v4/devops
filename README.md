@@ -8,7 +8,7 @@ Pipelines and schemas to my API and Database.
 
 Utilizei este repo para consolidar meus estudos de devops e docker, armazenando todo o planejamento para construir minha aplicação de planejamento pessoal, assim como arquitetura dos serviços, banco de dados e deploy.
 
-> Conto mais detalhes no [Front-end](https://github.com/jsi1v4/my-planning-app) e Back-end [NodeJS](https://github.com/jsi1v4/api-node), [.NET](https://github.com/jsi1v4/api-csharp) e [Java](https://github.com/jsi1v4/api-java) 🖖😎.
+> Conto mais detalhes no [Front-end](https://github.com/jsi1v4/my-planning-app) e Back-end [Java](https://github.com/jsi1v4/my-api), [NodeJS](https://github.com/jsi1v4/api-node) e [.NET](https://github.com/jsi1v4/api-csharp) 🖖😎.
 
 ## Requisitos
 
